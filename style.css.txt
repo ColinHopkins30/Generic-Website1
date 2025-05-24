@@ -1,0 +1,48 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;  /* Clean, readable font */
+  background-color: #f9f9f9;       /* Light gray background */
+  color: #333;                     /* Dark gray text color */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0073e6;       /* Blue header background */
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  background-color: #004a99;       /* Darker blue nav background */
+  padding: 0.5em 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;      /* Underline on hover */
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 1em;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+footer {
+  background-color: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 20px;
+}
